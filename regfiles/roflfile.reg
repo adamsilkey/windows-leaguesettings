@@ -1,0 +1,21 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.rofl]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.rofl\OpenWithProgids]
+"roflfile"=""
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\roflfile]
+@="League of Legends Replay File"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\roflfile\DefaultIcon]
+@="\"C:\\Riot Games\\League of Legends\\RADS\\solutions\\lol_game_client_sln\\releases\\0.0.1.155\\deploy\\League of Legends.exe\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\roflfile\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\roflfile\shell\open]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\roflfile\shell\open\command]
+@="powershell -Command \"& {cd 'C:\\Riot Games\\League of Legends\\RADS\\solutions\\lol_game_client_sln\\releases\\0.0.1.155\\deploy'; & '.\\League of Legends.exe' '%1'}\""
+
